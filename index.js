@@ -116,6 +116,11 @@ const adicionarparticipante = (event) => {
     alert('Reserva já feita');
     return;
   }
+  if(dadosDoFormulario.get('Numeroreserva')<=199999){
+    alert('Reserva está incorreta');
+    return;
+  }
+
 
   participantes.unshift(novoParticipante);
   atualizarLista(participantes);
