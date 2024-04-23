@@ -167,7 +167,10 @@ const adicionarparticipante = (event) => {
     alert('Reserva está faltando numeros');
     return;
   }
-
+  if(dadosDoFormulario.get('Matricula')<=229999){
+    alert('Matricula incorreta');
+    return;
+  }
   participantes.unshift(novoParticipante);
   atualizarLista(participantes);
 
