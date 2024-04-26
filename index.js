@@ -9,7 +9,7 @@ document.getElementById('Login').addEventListener('submit', function(event) {
     // Simulação de validação simples
     if (email.trim() === '' || senha.trim() === '') {
         document.getElementById('mensagem').innerText = 'Por favor, preencha todos os campos.';
-        return "/frontControle";
+        return "/controle";
     }
     
     // Simulação de cadastro bem-sucedido
