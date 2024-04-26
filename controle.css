@@ -1,0 +1,122 @@
+* {
+  margin:  0;
+  padding: 1;
+  box-sizing: border-box;
+
+}
+
+:root {
+  --border:  1px solid #fffbfb1a;;
+}
+
+body, table, input, button {
+    font: 400 16px/140% 'roboto';
+  }
+
+  body {
+    background-color: #1e1e22;
+    color: #ffffff;
+  }
+  .container {
+    max-width: 690;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+header{
+
+  padding: 20px 0;
+}
+form{
+  border: var(--border);
+  border-inline: none;
+  padding: 10px 0;
+}
+fieldset{
+  border: none;
+  padding: 0;
+}
+fieldset > div{
+  display: flex;
+  gap: 1px;
+}
+.input-wrapper{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: var(--border);
+  border-radius: 5px;
+  font: 400 14px/150 'roboto',;
+  color: #dbdbe6;
+}
+
+fieldset button{ 
+  width: fit-content;
+  border:  0;
+  background: #034187;
+  color: blanchedalmond;
+  border-radius: 10px;
+  padding: 7px 20px;
+  font: 700 16px/16px 'roboto';
+
+}
+fieldset button:hover{  
+background: #021a36;
+}
+input{
+  all:  unset;
+}
+.Lista-participantes{
+  padding: 20px 0px;
+}
+
+.Lista-participantes > div{
+  border: var(--border);
+  border-radius: 8px;
+}
+fieldset legend, section h2{
+ font:  800 16px/140% 'roboto' ;
+}
+  table {
+    border-collapse: collapse;
+    padding-bottom: 16px;
+  }
+
+  table thead {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  thead th,
+  tbody td {
+    padding: 12px 16px;
+  }
+
+  tbody td {
+    border-top: var(--border);
+    font-size: 13px;
+    line-height: 15px;
+    color: #dbdbe6;
+  }
+
+  tbody td strong {
+    color: rgb(67, 99, 241);
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+  }
+
+  tbody td small {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  tbody td button {
+    all: unset;
+    color: #034187;
+  }
+
+  tbody td button:hover {
+    text-decoration: underline;
+  }
