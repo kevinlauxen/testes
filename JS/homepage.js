@@ -3,7 +3,7 @@ function homepage() {
     var psw = document.getElementById("psw");
     if (email && email.checkValidity() && psw &&  psw.checkValidity()) {
         localStorage.setItem('EMAIL',email.value);
-        location.href = "homepage.html";
+        location.href = "https://kevinlauxen.github.io/testes/homepage.html";
     }
 
 }
