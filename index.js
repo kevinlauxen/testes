@@ -9,7 +9,7 @@ document.getElementById('Login').addEventListener('submit', function(event) {
     // Simulação de validação simples
     if (email.trim() === '' || senha.trim() === '') {
         document.getElementById('mensagem').innerText = 'Por favor, preencha todos os campos.';
-        return '/frontControle';
+        return "/frontControle";
     }
     
     // Simulação de cadastro bem-sucedido
@@ -19,5 +19,9 @@ document.getElementById('Login').addEventListener('submit', function(event) {
     document.getElementById('email').value = '';
     document.getElementById('Matricula').value = '';
     document.getElementById('mensagem').innerText = '';
-    
+   
+    const teste = (event) => {
+        alert('entrou');
+        return
+        };
 });
