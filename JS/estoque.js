@@ -1,4 +1,4 @@
-
+function estoque(){
   var materials = [
     { 
       numero: "001",
@@ -103,3 +103,4 @@
   });
 
 
+}
