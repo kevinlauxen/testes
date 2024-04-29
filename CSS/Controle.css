@@ -14,8 +14,8 @@ body, table, input, button {
   }
 
   body {
-    background-color: #1e1e22;
-    color: #ffffff;
+    background-color: #16181a;
+    color: #fafafa;
   }
   .container {
     max-width: 690;
@@ -48,7 +48,7 @@ fieldset > div{
   border: var(--border);
   border-radius: 5px;
   font: 400 14px/150 'roboto',;
-  color: #dbdbe6;
+  color: #f1f1f5;
 }
 
 fieldset button{ 
@@ -62,7 +62,7 @@ fieldset button{
 
 }
 fieldset button:hover{  
-background: #021a36;
+background: #e9e9e9;
 }
 input{
   all:  unset;
