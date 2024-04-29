@@ -74,7 +74,18 @@ fieldset button {
     cursor: pointer;
 }
 
+a{
+  padding: 10px 20px;
+  background-color: #014489;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
 
+a:hover{
+  background-color: #0056b3;
+}
 button:hover {
     background-color: #0056b3;
 }
