@@ -1,79 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="CSS/Login.css">
-    <script type="text/javascript" src="JS/Login.js"></script>
 </head>
 <body>
-    
     <div class="container">
-
-
-            <div><img style="display: block;margin: auto;cursor: zoom-in;background-color:#dfdbdb;transition: background-color 300ms;" src="https://tigreb2c.blob.core.windows.net/custompages/Templates/assets/images/tigre.png" width="350" height="100"> </div>
-        
+        <div>
+            <img style="display: block;margin: auto;cursor: zoom-in;background-color:#dfdbdb;transition: background-color 300ms;" src="https://tigreb2c.blob.core.windows.net/custompages/Templates/assets/images/tigre.png" width="350" height="100">
+        </div>
         <h2>Faça seu login para acessar</h2>
+        <form id="Login">
+            <fieldset>
+                <div class="form-group">
+                    <img style="display: block;margin: auto;cursor: zoom-in;background-color: #dfdbdb;transition: background-color 300ms;" src="https://imaginethatcreative.net/blog/wp-content/uploads/2023/06/2250206.png" width="23" height="23">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <svg width="23" height="23" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Seu SVG aqui -->
+                    </svg>
+                    <input type="password" id="Matricula" name="Matricula" placeholder="Matricula" required>
+                </div>
+                <button type="submit">Login</button>
+                <a href="homepage.html">homepage</a>
+                <a href="Controle.html">Controle</a>
 
-    <form id="Login">
-        <fieldset>
-                  
-            <div class="form-group">
-                <body><img style="display: block;;margin: auto;cursor: zoom-in;background-color: #dfdbdb;transition: background-color 300ms;" src="https://imaginethatcreative.net/blog/wp-content/uploads/2023/06/2250206.png" width="23" height="23">
-                </body>
-
-                <input type="email" 
-                id="email" 
-                name="email"
-                placeholder= "Email"
-                required>
-            </div>
-
-
-            <div class="form-group">
-
-                
-
-                <svg width="23" height="23" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_24_685)">
-                        <path
-                        d="M12 13.3333C12 12.2724 11.5786 11.255 10.8284 10.5049C10.0783 9.75474 9.06087 9.33331 8 9.33331C6.93913 9.33331 5.92172 9.75474 5.17157 10.5049C4.42143 11.255 4 12.2724 4 13.3333"
-                        stroke="#014489" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                        d="M8.00001 9.33333C9.47277 9.33333 10.6667 8.13943 10.6667 6.66667C10.6667 5.19391 9.47277 4 8.00001 4C6.52725 4 5.33334 5.19391 5.33334 6.66667C5.33334 8.13943 6.52725 9.33333 8.00001 9.33333Z"
-                        stroke="#014489" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
-                        <path
-                        d="M8.00001 14.6666C11.6819 14.6666 14.6667 11.6819 14.6667 7.99998C14.6667 4.31808 11.6819 1.33331 8.00001 1.33331C4.31811 1.33331 1.33334 4.31808 1.33334 7.99998C1.33334 11.6819 4.31811 14.6666 8.00001 14.6666Z"
-                        stroke="#014489" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_24_685">
-                        <rect width="16" height="16" fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
-                
-                <input type="password" 
-                id="Matricula" 
-                name="Matricula"
-                placeholder="Matricula" 
-                required>
-            </div>
-    
-            <a href='homepage.html'><button>Login</button></a>
-            <a href='Controle.html' onclick="estoque()">Controle</a>
-            <a href='homepage.html' onclick="materials()">homepage</a>
-
-
-            
-       </fieldset>
-    </form>
-    
+            </fieldset>
+        </form>
         <div id="mensagem"></div>
     </div>
-    <script src="JS/Login.js"></script>
+
+    <script src="JS/Login.js" defer></script>
 </body>
 </html>
