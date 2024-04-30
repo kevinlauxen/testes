@@ -1,4 +1,4 @@
-$( function() {
+
     var materials = [
       { 
         numero: "001",
@@ -101,5 +101,3 @@ $( function() {
         alert(`Material ${$(this).data("numero")} reservado com sucesso! Número de reserva: ${numeroReserva}`);
       }
     });
-});
-
